@@ -1,0 +1,2 @@
+class Andrew < ApplicationRecord
+end
