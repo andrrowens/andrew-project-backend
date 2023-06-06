@@ -13,9 +13,9 @@ p1  = Project.create(
     description: "Rooted Plant Exchange was created to allow gardeners, growers, and green thumbs to connect with the plant-loving community and to allow users to trade and give away plants to others in their area. It also provides educational information through the Plant Library and User Submitted Plants section.",
     video: "https://www.loom.com/share/2972fb5fa9ef4c8c8817d8eda7437e3d",
     github: "https://github.com/andrrowens/rooted-plant-exchange-frontend",
-    image1: "test",
-    image2: "test",
-    image3: "test")
+    image1: "https://i.imgur.com/1g0bx3N.png",
+    image2: "https://i.imgur.com/TQOdKnH.png",
+    image3: "https://i.imgur.com/7ASUrO5.png")
 
 puts "✅ Done seeding!"
 
