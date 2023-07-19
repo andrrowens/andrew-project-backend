@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::API
+  # skip_forgery_protection
   include ActionController::Cookies
 
   rescue_from ActiveRecord::RecordNotFound, with: :not_found

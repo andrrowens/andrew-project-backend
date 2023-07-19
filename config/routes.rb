@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "*path", to: "fallback#index", constraints: ->(req) { !req.xhr? && req.format.html? }
 
   get '/authenticated_user', to: 'users#show'
-  post '/login', to: 'sessions#create'
+  post '/login', to: 'sessions#authenticated_user'
   
 
 end
