@@ -17,7 +17,7 @@ p1  = Project.create(
     image2: "https://i.imgur.com/TQOdKnH.png",
     image3: "https://i.imgur.com/7ASUrO5.png")
 
-u1 = User.create(username: "andrrowens", password: "Auggie118")
+u1 = User.create(username: "andrrowens", password: "password")
 
 
 puts "✅ Done seeding!"

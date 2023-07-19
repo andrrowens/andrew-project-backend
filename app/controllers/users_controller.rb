@@ -1,9 +1,14 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
+  skip_before_action :authenticated_user, only: [:create]
+
+
+
   # GET /users
   def index
     @users = User.all
+    byebug
 
     render json: @users
   end
